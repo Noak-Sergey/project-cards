@@ -8,32 +8,32 @@ export const Header = () => {
     return (
         <div className={s.div}>
             <div className={s.item}>
-                <NavLink to={Path.LogIn}  activeClassName={s.active}>
+                <NavLink to={Path.LogIn}  >
                     Log in
                 </NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={Path.Registration} activeClassName={s.active}>
+                <NavLink to={Path.Registration} >
                     Registration
                 </NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={Path.Profile} activeClassName={s.active}>
+                <NavLink to={Path.Profile} >
                     Profile
                 </NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={Path.PasswordRecovery} activeClassName={s.active}>
+                <NavLink to={Path.PasswordRecovery} >
                     Reset password
                 </NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={Path.NewPassword} activeClassName={s.active}>
+                <NavLink to={Path.NewPassword} >
                     Create new password
                 </NavLink>
             </div>
             <div className={s.item}>
-                <NavLink to={Path.TestComponents} activeClassName={s.active}>
+                <NavLink to={Path.TestComponents} >
                     SuperComponents
                 </NavLink>
             </div>

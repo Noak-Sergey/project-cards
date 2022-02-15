@@ -1,0 +1,94 @@
+.tableContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+    font-size: 16px;
+}
+
+th,
+td {
+    border: 1px solid #ffffff;
+    text-align: left;
+    padding: 15px;
+    word-wrap: break-word;
+}
+
+th {
+    background-color: #ECECF9;
+}
+
+td {
+    background-color: #F8F7FD;
+}
+
+form {
+    display: flex;
+    gap: 5px;
+}
+
+form td:last-child {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.addPacksFormWrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    min-width: 250px;
+}
+
+.cardsCount {
+    max-width: 80px;
+}
+
+.updated {
+    min-width: 160px;
+}
+
+.user_name {
+    min-width: 250px;
+}
+
+.actions {
+    min-width: 200px;
+}
+
+.btn {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    position: relative;
+}
+
+.ascending:after {
+    position: absolute;
+    content: "";
+    background-image: url('../../../main/ui/assets/img/icons/Polygon.png');
+    transform: rotate(180deg);
+    top: 7px;
+    left: -15px;
+    width: 10px;
+    height: 6px;
+}
+
+.descending:after {
+    position: absolute;
+    content: "";
+    background-image: url('../../../main/ui/assets/img/icons/Polygon.png');
+    top: 7px;
+    left: -15px;
+    width: 10px;
+    height: 6px;
+}
